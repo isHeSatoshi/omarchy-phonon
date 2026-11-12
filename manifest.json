@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.ishesatoshi.phonon",
+  "name": "Phonon",
+  "version": "1.0.0",
+  "author": "isHeSatoshi",
+  "license": "MIT",
+  "description": "A Phonon dictation panel that respects your existing shortcuts and privacy settings.",
+  "kinds": ["bar-widget"],
+  "entryPoints": {"barWidget": "Panel.qml"},
+  "barWidget": {
+    "displayName": "Phonon",
+    "description": "Dictation status, native writing modes, microphone status, and optional local history.",
+    "category": "Productivity",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
